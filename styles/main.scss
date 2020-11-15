@@ -1,0 +1,19 @@
+@import 'partials/base';
+
+// Mobile screens
+@media (min-width: 768px) {
+    nav {
+        a {
+            justify-content: space-between;
+        }
+    }
+}
+
+// Large screens
+@media (min-width: 1024px) {
+    nav {
+        a {
+            justify-content: space-between;
+        }
+    }
+}
