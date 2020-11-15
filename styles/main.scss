@@ -1,2 +1,8 @@
 @import 'partials/base';
 
+nav {
+    a {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
