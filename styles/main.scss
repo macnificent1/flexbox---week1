@@ -1,8 +1,59 @@
 @import 'partials/base';
 
-nav {
-    a {
-        display: flex;
-        justify-content: space-evenly;
-    }
+// mobile-view
+@media (min-width: 360px) {
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #ffffff;
+}
+
+}
+
+// large-screen-view
+@media (min-width: 1024px) {
+
+.hero-content
+    h1 {
+        font-size: 4em;
+}
+
+.main-container {
+    display: flex;
+}
+
+.post,
+.sidebar {
+    flex-basis: 600px;
+}
+
+.mixed-layout {
+    display: flex;
+}
+
+.first,
+.second {
+    flex-basis: 600px;
+}
+
+.second {
+    display: flex;
+}
+
+.second-a,
+.second-b {
+    flex-basis: 300px;
+}
+
 }
